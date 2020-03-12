@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!-- html은 대소문자 구분하지 않는다. -->
+<!-- 주석 -->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<!-- 
+<body text="yellow" bgcolor = "black" background="">
+-->
+<body>
+
+	<table border="10" align="center" whidth="300" height="200" bgcolor="pink"> <!-- 테이블 테두리선 -->
+	<caption><b>테이블 제목</b></caption><!-- 테이블 제목 -->
+		<tr><!-- 엔터값이라고 생각해라. 한줄 or 한행 이라고 생각하면됨 -->
+			<td colspan ="2">일 입니다.</td><!-- 안에 작은 네모상자 -->
+			<td>삼 입니다.</td>
+		</tr>
+				<tr><!-- 엔터값이라고 생각해라. 한줄 -->
+			<td rowspan="2">일</td><!-- 얇은 글씨에 기본 왼쪽 정렬 -->
+			<th>이</th><!-- 굵은 글씨에 기본 가운데 정렬 -->
+			<td>삼</td>
+		</tr>
+				</tr>
+				<tr><!-- 엔터값이라고 생각해라. 한줄 -->
+			<td>일</td><!-- 얇은 글씨에 기본 왼쪽 정렬 -->
+			<th>이</th><!-- 굵은 글씨에 기본 가운데 정렬 -->
+			
+		</tr>
+	</table>
+
+<hr>
+	dt : 제목, dd:내용
+	<br>
+	<dl>
+		<dt>HTML</dt>
+		<dd>
+			안의 내용이 들어<br> 오는 곳...
+		</dd>
+
+	</dl>
+
+
+	<hr>
+	<ol>
+		<!-- 순서가 있는 리스트 -->
+		<li>스포츠</li>
+		<li>영화</li>
+		<li>맛집</li>
+	</ol>
+
+	<ol type="a">
+		<li>스포츠</li>
+		<li>영화</li>
+		<li>맛집</li>
+	</ol>
+	<ol type="A">
+		<li>스포츠</li>
+		<li>영화</li>
+		<li>맛집</li>
+	</ol>
+	<ol type="i">
+		<li>스포츠</li>
+		<li>영화</li>
+		<li>맛집</li>
+	</ol>
+	<ol type="I">
+		<li>스포츠</li>
+		<li>영화</li>
+		<li>맛집</li>
+	</ol>
+
+
+
+	<ul>
+		<!-- 순서 없이 점으로 나오는 리스트. -->
+		<li>스포츠</li>
+		<li>영화</li>
+		<li>맛집</li>
+	</ul>
+	<ul type="circle">
+		<!-- 순서 없이 점으로 나온다. -->
+		<li>스포츠</li>
+		<li>영화</li>
+		<li>맛집</li>
+	</ul>
+
+	<ul type="square">
+		<!-- 순서 없이 점으로 나온다. -->
+		<li>스포츠</li>
+		<li>영화</li>
+		<li>맛집</li>
+	</ul>
+
+
+	<hr>
+	선의 두께
+	<hr size="10">
+	음영 효과 제거
+	<hr size="10" noshade>
+	길이 , 색, 위치 정렬
+	<hr width="50%" align="center" color="skyblue">
+	<!-- %로 크기를 주면 반응형 크기라고 해서 창을 키우든 줄이든 그 창에 맞게 50% 유지 -->
+	"
+	<pre>
+공백을                   
+    <b>주고서</b> 
+                       <font size="5">실행을</font>    
+                                   해보세염~
+</pre>
+
+
+
+
+	<hr>
+	이 글자는
+	<dfn> 용어 정의</dfn>
+	<br> 이 글자는
+	<strong> 강한 강조 표시</strong>
+	<br>
+	<!--  strong 과 b는 같다. strong은 그냥 좀더 강조 한다는 개발자들의 의미? 5번전 이후에 나옴 -->
+	이 글자는
+	<strike> 삭제 표시</strike>
+	<br> 이 글자는
+	<b> 굵은 글씨</B>
+	<br> 이 글자는
+	<i> 이태릭(기울임)</i>
+	<br> 이 글자는
+	<u> 밑줄효과</u>
+	<br> 이 글자는
+	<center>중간정렬 효과</center>
+	<br> 이 글자는
+	<sup> 위 첨자</sup>
+	<br> 이 글자는
+	<sub> 아래 첨자</sub>
+	<br>
+
+
+
+
+
+
+
+
+	<hr>
+	<!-- 줄 한줄 표현 -->
+	<font size="1" style="background-color: red;">글자 크기 1</font>
+	<br>
+	<font size="2">글자 크기 2</font>
+	<br>
+	<font size="3">글자 크기 3</font>
+	<br>
+	<font size="4">글자 크기 4</font>
+	<br>
+	<font size="5">글자 크기 5</font>
+	<br>
+	<font size="6">글자 크기 6</font>
+	<br>
+	<font size="7">글자 크기 7</font>
+	<br>
+	<br>
+
+	<font face="궁서체" color="blue">기본 크기는 3</font>
+
+
+	<h1 style="background-color: red;">h1 : 문서의 주 제목</h1>
+	<h2>h1 : 문서의 부 제목</h2>
+	<h3>h1 : 문서의 주 제목 또는 문서 내용</h3>
+	<h4>h1 : 문서의 내용</h4>
+	<h5>h1 : 문서의 내용</h5>
+	<h6>h1 : 문서의 내용</h6>
+
+	아무내용
+	<br> 다음 내용
+	<br>
+	<p>실행 됩니다.</p>
+	또다른 내용
+	<br> 추가됩니다.
+</body>
+</html>
